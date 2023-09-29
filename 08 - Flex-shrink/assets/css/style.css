@@ -1,0 +1,34 @@
+.container {
+    background: blueviolet;
+    margin-bottom: 20px;
+    padding: 10px;
+
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    gap: 10px;
+}
+
+#container-01 {
+    flex-flow: row nowrap;
+}
+
+#container-02 {
+    flex-flow: column nowrap;
+}
+
+.item {
+    padding: 8px;
+    background: yellow;
+    
+    min-width: 30px; /*shrink vai respeita o minimo de largura mesmo que corte o container*/
+    width: 50px;
+    height: 50px;
+    flex-shrink: 1; /*Vai diminuir oque colocou em width e height para caber no container*/
+}
+
+.item-03 {
+    flex-shrink: 2;/*Vai fazer que o item 3 diminuar mais em relação aos outros*/
+}
+

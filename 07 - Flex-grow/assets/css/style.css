@@ -1,0 +1,23 @@
+.container {
+    background: blueviolet;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.item {
+    background: yellow;
+    flex-grow: 1; /*Permite que todos os itens ocupem o mesmo espeço no eixo princiapal*/
+    
+}
+
+.item-02 {
+    flex-grow: 2; /*Ocupa o dobro de espaço disponivel dentro do container*/
+    /* max-height: 30px; flex-grow respeita o tamanho maximo colocado*/
+}
+

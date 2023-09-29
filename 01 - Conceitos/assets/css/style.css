@@ -1,0 +1,26 @@
+.container {
+    background: palegreen;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    display: flex; /*inline-flex deixa um container ao lado do outro*/
+/*    flex-wrap: wrap; /*Faz uma quebra de linha para que os elemento continuem dentro do container*/
+
+}
+
+.item {
+    background: orange;
+    margin: 10px;
+}
+
+#container-01 {
+/*    flex-direction: row; /*row-reverse inverte a ordem*/
+flex-flow: row wrap; /*row nowrap*/
+}
+
+#container-02 {
+/*    flex-direction: column; */
+    height: 300px;
+    flex-flow: column wrap-reverse;
+
+}

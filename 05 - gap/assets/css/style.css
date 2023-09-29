@@ -1,0 +1,23 @@
+.container {
+    background: palegreen;
+    margin: 20px;
+    width: 300px;
+    padding: 10px;
+    height: 250px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px; /*Primeiro valor, Linhas e segundo colunas*/
+}
+
+.item {
+    background: orange;
+}
+
+#container-01 {
+    flex-direction: row;
+}
+
+#container-02 {
+    flex-direction: column;
+}

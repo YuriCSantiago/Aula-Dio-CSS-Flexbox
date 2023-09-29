@@ -1,0 +1,26 @@
+.container {
+    background: palegreen;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end; /*flex-end - Vai para o final do eixo*/
+    /*center - centraliza*/  /*space-between - nao deixa nenhum espaço adicional nas extremidades*/
+    /*space-around - Aplica metade do valor do espaçamento entre item 1 e item 2*/
+    /*space-evenly - Mesmo espaçamento entre todos os itens*/
+}
+
+.item {
+    background: orange;
+    margin: 10px;
+}
+
+#container-01 {
+    flex-flow: row wrap;
+}
+
+#container-02 {
+    height: 300px;
+    flex-flow: column wrap-reverse;
+
+}
